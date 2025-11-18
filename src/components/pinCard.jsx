@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 const PinSkeleton = () => (
     <div 
-        className="rounded-xl overflow-hidden bg-gray-700 animate-pulse w-full h-auto" 
+        className="rounded-xl overflow-hidden bg-neutral-700 animate-pulse w-full h-auto" 
         style={{ height: `${Math.floor(Math.random() * (350 - 250) + 250)}px` }}
     >
         <div className="w-full h-full bg-gray-800"></div>
