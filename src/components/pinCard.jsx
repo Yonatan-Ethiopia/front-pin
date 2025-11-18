@@ -6,7 +6,7 @@ const PinSkeleton = () => (
         className="rounded-xl overflow-hidden bg-neutral-700 animate-pulse w-full h-auto" 
         style={{ height: `${Math.floor(Math.random() * (350 - 250) + 250)}px` }}
     >
-        <div className="w-full h-full bg-gray-800"></div>
+        <div className="w-full h-full bg-neutral-800"></div>
     </div>
 );
 const PinCard = ({ pin, onPinClick }) => {
