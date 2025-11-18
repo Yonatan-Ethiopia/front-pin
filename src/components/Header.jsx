@@ -9,7 +9,7 @@ function Header({ onMenuClick }){
 		<p className="font-slab mt-1 text-2xl font-semibold text-gray-50 ">AASTU </p> 
 		<p className="font-signature ml-1 mt-1 font-semibold text text-gray-50 text-xl">photography</p>
 		</div>
-		<img src={searchIcon} alt="" className="w-8 h-8"/>
+		<div className="w-8 h-8"></div>
 		</div>
 	)
 }
