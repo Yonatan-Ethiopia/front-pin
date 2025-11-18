@@ -207,7 +207,7 @@ function MasonryGrid() {
             
             {/* This message will appear briefly before the next page loads */}
             {!loading && pins.length > 0 && (
-                <p className="text-gray-500 text-sm">Scroll down to load more...</p>
+                <p className="text-gray-500 text-sm">Be patient a little please.</p>
             )}
           </>
         ) : (
