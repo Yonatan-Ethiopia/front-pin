@@ -15,7 +15,7 @@ const breakpointColumnsObj = {
 
 // Assuming your API returns this many items per page (adjust if needed)
 const PAGE_SIZE = 10; 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://pin-app-production.up.railway.app/api/get/Images';
+const API_BASE_URL = 'https://pin-app-production.up.railway.app/api/get/Images';
 
 const CustomStyles = () => (
   <style>
